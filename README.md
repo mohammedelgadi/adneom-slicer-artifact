@@ -55,6 +55,24 @@ This method will uses the github as maven repository
 
 ![Description of partition method](https://github.com/mohammedelgadi/adneom-slicer-artifact/blob/master/img/partition-javadoc.png)
 
+## Astuce & Remarque :
+
+To instantiate the beans, you can use the default constructor. But If your are using spring to inject beans, your have to :
+* create a configuration class, and declare the bean function,
+* or declare the Adneom class in you injection xml file for the old versions of spring.
+
+Example of configuration spring class :
+####
+@Configuration
+public class AdneomConfiguration {
+
+    @Bean
+    public AdneomArrayUtils adneomArrayUtils(){
+        return new AdneomArrayUtils();
+    }
+
+}
+####
 
 
 
