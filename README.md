@@ -62,7 +62,7 @@ To instantiate the beans, you can use the default constructor. But If your are u
 * or declare the Adneom class in you injection xml file for the old versions of spring.
 
 Example of configuration spring class :
-####
+```
 @Configuration
 public class AdneomConfiguration {
 
@@ -72,7 +72,7 @@ public class AdneomConfiguration {
     }
 
 }
-####
+```
 
 
 
