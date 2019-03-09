@@ -50,14 +50,13 @@ This method will uses the github as maven repository
 
 * Now you only have to use the partition method :
 
-
-* This is the JavaDoc description of partition method
+The following image contains the description javadoc of the partition method
 
 ![Description of partition method](https://github.com/mohammedelgadi/adneom-slicer-artifact/blob/master/img/partition-javadoc.png)
 
 ## Astuce & Remarque :
 
-To instantiate the beans, you can use the default constructor. But If your are using spring to inject beans, your have to :
+To instantiate the beans, you can use the default constructor. But If your are using spring to inject your beans, your have to :
 * create a configuration class, and declare the bean function,
 * or declare the Adneom class in you injection xml file for the old versions of spring.
 
